@@ -1,0 +1,19 @@
+{
+  "name": "suishoutie-desktop",
+  "productName": "随手贴",
+  "version": "1.0.0",
+  "description": "随手贴桌面版：公众号 / GitHub / 网页 / 文本 一键摘要归档，本地知识库",
+  "main": "main.js",
+  "author": "suishoutie",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron .",
+    "self-test": "electron . --self-test"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0"
+  },
+  "devDependencies": {
+    "electron": "^45.2.3"
+  }
+}

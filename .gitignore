@@ -1,0 +1,32 @@
+# 依赖与构建产物
+node_modules/
+dist/
+随手贴-Windows/
+随手贴-Windows-旧版/
+碎知库-Windows/
+碎知库-Windows-旧版/
+*.exe
+
+# 本地运行数据（知识库、设置、API Key 全在这里，绝不入库）
+output/
+data/
+*.data.json
+data.json
+settings.json
+.env
+.env.*
+*.log
+boot.log
+
+# 自检 / 调试产物
+self-test-result*.txt
+self-test-result*.png
+packaged-self-test*
+probe*.txt
+
+# 编辑器与系统文件
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
